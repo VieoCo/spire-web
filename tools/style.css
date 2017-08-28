@@ -2,7 +2,6 @@
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
-
 @font-face {
     font-family: 'socicon';
     src: url('socicon/font/socicon-webfont.eot');
@@ -15,11 +14,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
     text-transform: initial;
 }
 
-
 .socicon {
     font-family: 'socicon' !important;
 }
-
 
 html,
 body {
@@ -30,28 +27,20 @@ body {
     display: table;
 }
 
-
-
-
-
 body{
-margin:0;
-padding:0;
-color: #fff;
-position: relative;
-font-family: 'Merriweather', serif;
-text-align: center;
+	margin:0;
+	padding:0;
+	color: #fff;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
-
-
-
 
 .wrapper{
     text-align: center;
     vertical-align: middle;
     position: relative;
 }
-
 
 .abovebanner{
 	width: 100%;
@@ -80,11 +69,12 @@ h1 span{
 }
 
 p.line1{
+	padding-top: 30px;
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	color: #AAAAAA;
 }
-
 
 .content{
 	width: 100%;
@@ -96,6 +86,11 @@ p.line1{
 	letter-spacing: 1px;
 }
 
+.content p.coming{
+	text-transform: uppercase;
+	color: #777777;
+}
+
 .form{
 	width: 40%;
 	padding: 0 30%;
@@ -105,11 +100,11 @@ p.line1{
 
 .mainform{
 	border: 1px solid #8b7d73;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;	
-float: left;
-width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	width: 100%;
 }
 
 .field input{
@@ -129,7 +124,7 @@ width: 100%;
 	width: 34%;
 	float: left;
 	background: #d4d0ce;
-	color: #433022;
+	color: #0E143D;
 	border: none;
 	font-family: 'Merriweather', serif;
 	text-transform: uppercase;
@@ -156,7 +151,7 @@ width: 100%;
 
 h2{
 	font-size: 12px;
-	color: #433022;
+	color: #0E143D;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
 }
@@ -165,14 +160,12 @@ h2{
 	width: 32%;
 	float: left;
 	border-right: 1px solid #d3d1cf;
-	
 }
 
 .email a{
-	color: #433022;
+	color: #0E143D;
 	font-size: 14px;
 	font-weight: 700;
-	text-transform: uppercase;
 	text-decoration: none;
 }
 
@@ -183,13 +176,12 @@ email a:hover{
 .social{
 	width: 32%;
 	float: left;
-	border-right: 1px solid #d3d1cf;
 }
 
 
 .social a{
 	margin: 0 15px;
-	color: #433022;
+	color: #0E143D;
 	text-decoration: none;
 }
 
@@ -200,10 +192,11 @@ email a:hover{
 .call{
 	width: 34%;
 	float: left;
+	border-right: 1px solid #d3d1cf;
 }
 
 .call p{
-	color: #433022;
+	color: #0E143D;
 	font-weight: 700;
 	font-size: 14px;
 }
@@ -237,16 +230,13 @@ email a:hover{
 
 .social a{
 	margin: 0 10px;
-	color: #433022;
+	color: #0E143D;
 	text-decoration: none;
 }
 
 
 
 }
-
-
-
 
 @media only screen and (max-width: 768px){
 
@@ -327,7 +317,7 @@ border-radius: 5px;
 	width: 100%;
 	float: left;
 	background: #d4d0ce;
-	color: #433022;
+	color: #0E143D;
 	border: none;
 	font-family: 'Merriweather', serif;
 	text-transform: uppercase;
@@ -358,8 +348,8 @@ h2{
 	
 }
 
-.email, .social{
-		border-bottom: 1px solid #f4f4f3;
+.email, .social, .call{
+	border-bottom: 1px solid #f4f4f3;
 
 }
 
